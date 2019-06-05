@@ -6,6 +6,7 @@ It was created to speed up the starting process of React devepopment, and includ
     * Webpack Dev Server
     * Webpack CLI
     * HTML Webpack Plugin
+    * CSS Modules Support
 
 * Babel:    
     * Babel Core
