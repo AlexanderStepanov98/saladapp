@@ -1,6 +1,7 @@
 # Salad App
 
 Generates "Salad Of The Day" by clicking the button
+
 Implemented using:
 
 * React
