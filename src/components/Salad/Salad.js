@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import SaladInfo from "../SaladInfo/SaladInfo";
 import styles from "./Salad.css";
 
@@ -8,7 +8,11 @@ const Salad = data => {
  
     return (
         <div>
-            <img src={imgUrl} className={styles.saladImg} alt={"salad image"}></img>
+            <img 
+                src={imgUrl} 
+                className={styles.saladImg} 
+                alt={"salad image"}>
+            </img>
             <SaladInfo
                 name={name}
                 vegetables={vegetables}

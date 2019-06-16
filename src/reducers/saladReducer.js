@@ -1,4 +1,4 @@
-export default function saladReducer(state = {}, action) {
+const saladReducer = (state = {}, action) => {
     switch (action.type) {
         case "REQUEST_SALAD":
             return {
@@ -41,3 +41,5 @@ export default function saladReducer(state = {}, action) {
             return state    
     }
 }
+
+export default saladReducer;

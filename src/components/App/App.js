@@ -6,14 +6,13 @@ import styles from "./App.css";
 import { fetchSalad } from "../../actions/saladActions";
 
 class App extends Component {
-
     generateSalad() {
         this.props.fetchSalad("saladOfTheDay");
     }
 
     render() {
         const {isFetching, saladRequested, salad} = this.props;
-        const {container, content, defaultButton} = styles;
+        const {container, defaultButton} = styles;
 
         return (
             <div className={container}>

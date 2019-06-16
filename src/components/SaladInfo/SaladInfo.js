@@ -1,8 +1,7 @@
-import React, { Component } from "react";
+import React from "react";
 import styles from "./SaladInfo.css";
 
 const SaladInfo = ({name, vegetables, meat}) => {
-
     return (
         <div className={styles.container}>
             <p>Name: {name}</p>
