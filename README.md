@@ -1,18 +1,12 @@
-# React boilerplate
+# Salad App
 
-It was created to speed up the starting process of React devepopment, and includes the following tools:
+Generates "Salad Of The Day" by clicking the button
+Implemented using:
 
-* Webpack:
-    * Webpack Dev Server
-    * Webpack CLI
-    * HTML Webpack Plugin
-    * CSS Modules Support
-
-* Babel:    
-    * Babel Core
-    * Babel Preset React
-    * Babel Preset Env
-    * Babel Loader
+* React
+* Redux/React-Redux
+* Axios
+* Redux-Thunk
 
 # How to use it?
 
@@ -29,11 +23,10 @@ npm install
 It will install all the project dependencies needed for development
 
 ```
-npm start
+npm run start
 ```
 It will gather all the project files, compile and run them on the development server
 
 Just open your web browser ant type `localhost:8080/` in the address field
 
 And now, you are ready to go!
-
