@@ -2,9 +2,9 @@ import React from "react";
 import SaladInfo from "../SaladInfo/SaladInfo";
 import styles from "./Salad.css";
 
-const Salad = data => {
+const Salad = ({data}) => {
 
-    const {imgUrl, name, vegetables, meat} = data.data;
+    const {imgUrl, name, vegetables, meat} = data;
  
     return (
         <div>
