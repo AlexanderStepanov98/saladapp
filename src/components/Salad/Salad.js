@@ -20,6 +20,6 @@ const Salad = ({data}) => {
             />
         </div>
     )
-}
+};
 
 export default Salad

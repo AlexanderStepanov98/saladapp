@@ -7,7 +7,7 @@ const startRequest = () => {
     return {
         type: "REQUEST_SALAD"
     }
-}
+};
 
 const updateSaladIdAndName = (id, name) => {
     return {
@@ -15,7 +15,7 @@ const updateSaladIdAndName = (id, name) => {
         id,
         name
     }
-}
+};
 
 const updateSaladVegetablesAndMeat = (vegetables, meat) => {
     return {
@@ -23,20 +23,20 @@ const updateSaladVegetablesAndMeat = (vegetables, meat) => {
         vegetables,
         meat
     }
-}
+};
 
 const updateSaladImg = url => {
     return {
         type: "UPDATE_URL",
         url
     }
-}
+};
 
 const endRequest = () => {
     return {
         type: "RECEIVE_SALAD"
     }
-}
+};
 
 export const fetchSalad = salad => dispatch => {
     dispatch(startRequest());
@@ -58,5 +58,5 @@ export const fetchSalad = salad => dispatch => {
         dispatch(updateSaladImg(resp.data.url));
         dispatch(endRequest());
     })
-}
+};
 

@@ -2,7 +2,7 @@ import { createStore, applyMiddleware } from "redux";
 import thunk from "redux-thunk";
 import rootReducer from "./reducers/saladReducer";
 
-const preloadedlState = {
+const preloadedState = {
     isFetching: false,
     saladRequested: false
 };
@@ -11,7 +11,7 @@ const middleware = [thunk];
 
 const store = createStore(
     rootReducer,
-    preloadedlState,
+    preloadedState,
     applyMiddleware(...middleware)
 );
 

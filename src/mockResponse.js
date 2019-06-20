@@ -20,5 +20,5 @@ export const mockResponse = () => {
     mock.onGet('/saladImageGenerator/ingredients?vegetables=tomatoes+cabbage+cucumber&meat=chicken').reply(200, {
         url: "https://img.pngio.com/free-png-salad-png-images-transparent-salad-png-850_395.png"
     });
-}
+};
 

@@ -36,6 +36,6 @@ const mapStateToProps = state => {
         saladRequested: state.saladRequested,
         salad: state.salad
     }
-}
+};
 
 export default connect(mapStateToProps, { fetchSalad })(App)
